@@ -1,0 +1,20 @@
+{
+    "name": "notas-fiscais",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "ts-node-dev --transpile-only src/server.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.17",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.5.5"
+    },
+    "dependencies": {
+        "@prisma/client": "^3.9.2",
+        "@types/express": "^4.17.13",
+        "express": "^4.17.2",
+        "prisma": "^3.9.2"
+    }
+}
